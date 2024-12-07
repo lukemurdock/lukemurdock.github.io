@@ -327,12 +327,23 @@ a:hover {
     text-indent: 40px;
     line-height: 2;
 }
-.paragraph.a {
+.fine a {
     transition: all 0.2s ease-in-out;
     font-family: "Libre Baskerville", serif;
+    text-decoration: underline;
     color: var(--accent);
 }
-.paragraph.a:visited {
+.fine a:visited {
+    transition: all 0.2s ease-in-out;
+    color: var(--white-red);
+}
+.paragraph a {
+    transition: all 0.2s ease-in-out;
+    font-family: "Libre Baskerville", serif;
+    text-decoration: underline;
+    color: var(--accent);
+}
+.paragraph a:visited {
     transition: all 0.2s ease-in-out;
     color: var(--white-red);
 }
@@ -349,6 +360,10 @@ a:hover {
     aspect-ratio: 400/545;
     width: 25%;
 }
+#polybiusCabinet {
+    aspect-ratio: 446/1,002;
+    width: 25%;
+}
 .stamp {
     width: auto;
     max-height: 50vh;
@@ -357,7 +372,7 @@ a:hover {
 .fine {
     font-family: "Libre Baskerville", serif;
     color: var(--text-tp);
-    font-size:medium;
+    font-size: small;
 }
 .break {
     padding-top: 5vh;
@@ -459,6 +474,10 @@ a:hover {
     }
     #smb3 {
         aspect-ratio: 400/545;
+        width: 100%;
+    }
+    #polybiusCabinet {
+        aspect-ratio: 446/1,002;
         width: 100%;
     }
 
