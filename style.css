@@ -315,6 +315,7 @@ a:hover {
 .baskerville {
     font-family: "Libre Baskerville", serif;
     color: var(--text);
+    font-size: medium;
 }
   
 
